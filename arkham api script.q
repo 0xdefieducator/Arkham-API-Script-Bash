@@ -18,7 +18,7 @@ set -euo pipefail
 
 # Global Configuration
 API_URL="https://api.arkhamintelligence.com/transfers"
-API_KEY="lm4RYXn3R007ZNG6yT0ku5nSsi70KY8V" 
+API_KEY="xxx" 
 JSON_FILE="response_dynamic.json"
 OUTPUT_CSV="transfers_dynamic.csv"
 LOG_FILE="./api_fetch.log"
@@ -152,21 +152,3 @@ main() {
 
 main "$@"
 // end of bash file script
-
-
-
-// 2.	The csv file which is created in the same home directory needs to be manually uploaded into either a kdb localhost or the kdb server. 
-
-
-
-// 3.   Analyze blockchain data and compare it to quote data or trade data, find patterns, signals that make us money. 
-
-
-
-
-
-
-
-
-
-
